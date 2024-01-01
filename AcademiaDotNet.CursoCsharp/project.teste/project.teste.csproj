@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34CBC53B-9DD9-4B9D-88C3-EF28B5A4D234}</ProjectGuid>
+    <ProjectGuid>{729DA4E7-5A2E-476D-AB2C-0A722CF1DB9E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AcademiaDotNet.CursoCsharp</RootNamespace>
-    <AssemblyName>AcademiaDotNet.CursoCsharp</AssemblyName>
+    <RootNamespace>project.teste</RootNamespace>
+    <AssemblyName>project.teste</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="project.teste\project.teste.csproj">
-      <Project>{729da4e7-5a2e-476d-ab2c-0a722cf1db9e}</Project>
-      <Name>project.teste</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
